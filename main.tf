@@ -172,6 +172,6 @@ resource "aws_iam_role_policy_attachment" "devopsshahid_node_group_cni_policy" {
 }
 
 resource "aws_iam_role_policy_attachment" "devopsshahid_node_group_registry_policy" {
-  role       = aws_iam_role.devopsshachid_node_group_role.name
+  role       = aws_iam_role.devopsshahid_node_group_role.name
   policy_arn = "arn:aws:iam::aws:policy/AmazonEC2ContainerRegistryReadOnly"
 }
